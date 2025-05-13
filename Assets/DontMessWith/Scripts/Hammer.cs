@@ -23,7 +23,7 @@ public class Hammer : MonoBehaviour
         if (canCrush)
         {
             canCrush = false;
-            transform.rotation = Quaternion.Euler(-90, 0, 0);
+            transform.localRotation = Quaternion.Euler(transform.localRotation.x -90, 0, 0);
             yield return new WaitForSeconds(2);
             transform.rotation = Quaternion.Euler(0, 0, 0);
             yield return new WaitForSeconds(2);

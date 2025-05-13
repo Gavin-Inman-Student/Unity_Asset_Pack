@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spiner : MonoBehaviour
+public class won : MonoBehaviour
 {
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +14,14 @@ public class Spiner : MonoBehaviour
     void Update()
     {
         
-        transform.Rotate (0, -200 * Time.deltaTime, 0);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        ParticleSystem p = GetComponent<ParticleSystem>();
+        if (other.CompareTag("Player"))
+        {
+            p.Play();
+        }
     }
 }

@@ -4,11 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Terrian
-  - Bullet
-  - Tank
-  - FxTemporaire
-  - Ghost
+  - Spawner
+  - Floor
+  - Forward
+  - Backward
   layers:
   - Default
   - TransparentFX

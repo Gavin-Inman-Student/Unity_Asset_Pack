@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     GameObject spawner;
+    bool grounded = true;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
+        Jump();
 
         if (transform.position.y < -100)
         {
@@ -27,8 +29,39 @@ public class PlayerController : MonoBehaviour
     void Move()
     {
         float movX = Input.GetAxisRaw("Vertical");
+        float movZ = Input.GetAxisRaw("Horizontal");
         Rigidbody rb = GetComponent<Rigidbody>();
 
         rb.velocity = new Vector3 (movX * 5, rb.velocity.y, rb.velocity.z);
+    }
+
+    void Jump()
+    {
+        if (Input.GetKey(KeyCode.Space) && grounded)
+        {
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.velocity = new Vector3(rb.velocity.x, 4, rb.velocity.z);
+            grounded = false;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Floor"))
+        {
+            grounded = true;
+        }
+        else
+        {
+            grounded = false;
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Floor"))
+        {
+            grounded = true;
+        }
     }
 }

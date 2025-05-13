@@ -6,31 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 0054555354565109590b092144205944124f1e2c7a2c24607f2d4460bae26c6c
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 5a550d55515751090f5f0d2443200e441515402f2d2b7f617b2a4a63e1b0666c
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 0002525657545d0a540b0f271177094414151c7d7e7927617a7e4e61e0b8306a
       flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 54505102560c5b5d0e5a542044745d44134f1a727c7127352c2d4b61e3b56468
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-2:
       value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-3:
       value: 5057035550055e0f540b542448275a4410161c7d7b2b72607c7c1961e1b7313e
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-4:
       value: 5754030000075c595d5f5e21137b5c4445161c7e7a7a74607c2c4c6be1e26761
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-5:
       value: 54090d5455015c5a590c5e7548260a44464f4c727e7e7069787e4431e3e36068
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-6:
       value: 5b52505e51045a030e0d5f2411730e44424e1e782f2c72337f794c32b3b46768
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 53050703565750025f5e5470167b0f444f164b7f7f7c71322b7b4935b5b06d6a
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5207515f57025f0d5a5d0d7144745e44444e1e2f7e7873632f2f4e37b2b5303e
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 02090d515c56085f580f547214760c44144f4d2c757974657c7f1861e3e3626a
       flags: 0
     UnityEditor.ShaderGraph.Blackboard:
       value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd2e2d293c4ead313b08042de6030a0afa240c0d020be94c4ba75e435d8715fa32c70d15d11612dacc11fee5d3c5d1fe9ab1bf968e93e2ffcbc3e7e2f0b3ffe0e8b0be9af8ffaeffff8e85dd8390e3949c8899daa7
